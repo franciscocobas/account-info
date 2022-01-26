@@ -11,6 +11,20 @@
   height: 75px;
 }
 
-.account-info-container p {
+.user-account-and-follow-container {
+  flex: 1;
   margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-account-and-follow-container button {
+  background-color: #d7dbdc;
+  border: none;
+  border-radius: 15px;
+  height: 30px;
+  padding: 5px 15px;
+  color: #1d2329;
+  cursor: pointer;
 }
